@@ -1,5 +1,5 @@
 name = input("Enter file:")
-if len(name) < 1 : name = "mbox-short.txt"
+if len(name) < 1 : name = "m.txt"
 handle = open(name)
 ans = dict()
 newwords = list()
